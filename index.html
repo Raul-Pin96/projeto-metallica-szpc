@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Álbuns do Metallica</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/logo.png" alt="Logo Metallica">
+    </header>
+
+    <main class="selecao-de-albuns">
+
+        <section class="albuns">
+            <h1 class="titulo">Selecione um álbum</h1>
+
+            <ul class="lista-de-albuns">
+
+                <li class="album selecionado" id="kill-em-all" data-name="Kill 'Em All" data-description="Kill 'Em All é o álbum de estreia da banda de thrash metal Metallica, lançado a 25 de julho de 1983.">
+                    <img src="./src/imagens/capa-kill-em-all-pequena.jpg" alt="Álbum Kill 'Em All">
+                </li>
+
+                <li class="album" id="ride-the-lightning" data-name="Ride The Lightning" data-description="Ride the Lightning é o segundo álbum de estúdio da banda de heavy metal Metallica, lançado em 27 de julho de 1984.">
+                    <img src="./src/imagens/capa-ride-the-lightning-pequena.jpg" alt="Álbum Ride The Lightning">
+                </li>
+
+                <li class="album" id="master-of-puppets" data-name="Master Of Puppets" data-description="Master of Puppets é o terceiro álbum de estúdio lançado pela banda de thrash metal/heavy metal norte-americana Metallica, lançado em 3 de março de 1986 pela Elektra Records.">
+                    <img src="./src/imagens/capa-master-of-puppets-pequena.jpg" alt="Álbum Master Of Puppets">
+                </li>
+
+                <li class="album" id="and-justice-for-all" data-name="...And Justice For All" data-description="…And Justice for All é o quarto álbum de estúdio da banda norte-americana de thrash metal Metallica, lançado em 6 de setembro de 1988.">
+                    <img src="./src/imagens/capa-and-justice-for-all-pequena.jpg" alt="Álbum ...And Justice For All">
+                </li>
+
+                <li class="album" id="black-album" data-name="Black Album" data-description="Metallica, também conhecido como The Black Album, é o quinto álbum de estúdio da banda norte-americana de heavy metal Metallica, lançado a 12 de agosto de 1991.">
+                    <img src="./src/imagens/capa-black-album-pequena.jpg" alt="Álbum Metallica">
+                </li>
+
+                <li class="album" id="load" data-name="Load" data-description="Load é o sexto álbum de estúdio da banda norte-americana Metallica, lançado em 4 de Junho de 1996.">
+                    <img src="./src/imagens/capa-load-pequena.jpg" alt="Álbum Load">
+                </li>
+
+                <li class="album" id="reload" data-name="Reload" data-description="ReLoad é o sétimo álbum de estúdio da banda Metallica, lançado a 18 de Novembro de 1997.">
+                    <img src="./src/imagens/capa-reload-pequena.jpg" alt="Álbum Reload">
+                </li>
+
+                <li class="album" id="st-anger" data-name="St. Anger" data-description="St. Anger é o oitavo álbum de estúdio da banda estadunidense Metallica, lançado em 5 de junho de 2003 pela Elektra Records.">
+                    <img src="./src/imagens/capa-st-anger-pequena.jpg" alt="Álbum St. Anger">
+                </li>
+            </ul>
+        </section>
+
+        <section class="album-selecionado">
+            <img class="album-grande" id="album-grande" src="./src/imagens/capa-kill-em-all-media.jpg" alt="Álbum Selecionado">
+
+            <div class="informacoes-album">
+                <h2 class="nome-album" id="nome-album">Kill 'Em All</h2>
+                <p class="descricao-album" id="descricao-album">Kill 'Em All é o álbum de estreia da banda de thrash metal Metallica, lançado a 25 de julho de 1983. O nome inicial do álbum seria Metal Up Your Ass, porém a gravadora o achou muito agressivo e o mudou para Kill 'Em All.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="./src/js/script.js"></script>
+</body>
+
+</html>

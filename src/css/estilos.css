@@ -1,0 +1,73 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Agdasima', sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+}
+
+.selecao-de-albuns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    min-height: calc(100vh - 134px);
+}
+
+.selecao-de-albuns .albuns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 510px;
+    gap: 20px;
+}
+
+.lista-de-albuns img {
+    height: 100%;
+}
+
+.selecao-de-albuns .titulo {
+    border-bottom: 2px solid red;
+    width: 100%;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.selecao-de-albuns .lista-de-albuns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.lista-de-albuns .selecionado {
+    box-shadow: 0 0 20px 7px #f00;
+}
+
+.album-selecionado {
+    max-width: 520px;
+    text-align: center;
+}
+
+.album-selecionado img {
+    box-shadow: 0 0 20px 2px #f00;
+}
+
+.album-selecionado .nome-album {
+    text-transform: uppercase;
+    border-bottom: 2px solid #f00;
+    margin-top: 20px;
+    letter-spacing: 4px;
+}
+
+.album-selecionado .descricao-album {
+    font-size: 19px;
+    letter-spacing: 1.5px;
+    margin-top: 20px;
+    text-align: justify;
+}

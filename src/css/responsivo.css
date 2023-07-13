@@ -1,0 +1,43 @@
+@media (max-width: 1120px) {
+
+    .cabecalho .logo {
+        max-width: 190px;
+    }
+
+    .selecao-de-albuns {
+        flex-direction: column-reverse;
+        max-width: 430px;
+        margin: 0 auto;
+    }
+
+    .album-selecionado .album-grande {
+        max-width: 280px;
+    }
+
+    .selecao-de-albuns .albuns {
+        margin-top: 37px;
+    }
+
+    .selecao-de-albuns .albuns .titulo {
+        font-size: 17px;
+    }
+
+    .selecao-de-albuns .lista-de-albuns {
+        gap: 9px;
+    }
+
+    .lista-de-albuns img {
+        width: 80px;
+    }
+
+    .album-selecionado .album-grande {
+        width: 270px;
+        height: 270px;
+    }
+
+    .album-selecionado .descricao-album {
+        width: 80%;
+        margin: 20px auto;
+        font-size: 17px;
+    }
+}
